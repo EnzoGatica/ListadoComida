@@ -41,15 +41,6 @@ public class SecondActivity extends AppCompatActivity {
         listaMenu.add("Corvina al ajillo");
         listaMenu.add("Leche, pan con aceite y fruta");
         listaMenu.add("Leche, pan con aceite y fruta");
-        listaMenu.add("Leche, pan con aceite y fruta");
-        listaMenu.add("Leche, pan con aceite y fruta");
-        listaMenu.add("Leche, pan con aceite y fruta");
-        listaMenu.add("Leche, pan con aceite y fruta");
-        listaMenu.add("Leche, pan con aceite y fruta");
-        listaMenu.add("Leche, pan con aceite y fruta");
-        listaMenu.add("Leche, pan con aceite y fruta");
-        listaMenu.add("Leche, pan con aceite y fruta");
-        listaMenu.add("Leche, pan con aceite y fruta");
 
         ArrayAdapter adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,listaMenu);
         binding.ListaView.setAdapter(adapter);
